@@ -1,0 +1,11 @@
+# @name create-transaction
+
+POST http://localhost:9999/clientes/1/transacoes
+Content-Type: application/json
+
+{"valor": 1, "tipo": "d", "descricao": "teste"}
+
+###
+
+# @name view-extract
+GET http://localhost:9999/clientes/1/extrato
